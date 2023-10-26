@@ -21,8 +21,6 @@ const contact = new Schema(
   { versionKey: false, timestamps: true }
 );
 
-// bookSchema.post("save", handleMongooseError);
-
 const Contacts = mongoose.model("contact", contact);
 
 module.exports = Contacts;
